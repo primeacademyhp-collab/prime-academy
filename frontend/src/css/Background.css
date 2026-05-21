@@ -173,58 +173,75 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.flip-card-front::after,
+.flip-card-back::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 70%;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    z-index: 0;
+}
+
+.flip-card-front>*,
+.flip-card-back>* {
+    position: relative;
+    z-index: 2;
 }
 
 /* Card Backgrounds with Overlays */
 .training-bg .flip-card-front {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(/trpr.jpg) center/cover;
+    background: url(/trpr.jpg) center/cover;
     background-size: cover;
     background-position: center;
 }
 
 .coaches-bg .flip-card-front {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(/coch.webp) center/cover;
+    background: url(/coch.webp) center/cover;
     background-size: cover;
     background-position: center;
 }
 
 .facilities-bg .flip-card-front {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(/faclitis.webp) center/cover;
+    background: url(/faclitis.webp) center/cover;
     background-size: cover;
     background-position: center;
 }
 
 .tournaments-bg .flip-card-front {
     background: url(/trnamnt.jpg) center/cover;
-    /*  linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), */
     background-size: cover;
     background-position: center;
 }
 
 .training-bg .flip-card-back {
     background: url(/trpr.jpg) center/cover;
-    /*  linear-gradient(135deg, rgba(156, 159, 159, 0.85), rgba(0, 204, 204, 0.7)), */
     background-size: cover;
     background-position: center;
 }
 
 .coaches-bg .flip-card-back {
     background: url(/coch1.jpg) center/cover;
-    /*  linear-gradient(135deg, rgba(0, 255, 255, 0.85), rgba(0, 204, 204, 0.7)), */
     background-size: cover;
     background-position: center;
 }
 
 .facilities-bg .flip-card-back {
     background: url(/faclitis.webp) center/cover;
-    /* linear-gradient(135deg, rgba(0, 255, 255, 0.85), rgba(0, 204, 204, 0.7)), */
     background-size: cover;
     background-position: center;
 }
 
 .tournaments-bg .flip-card-back {
     background: url(/trnamnt.jpg) center/cover;
-    /* linear-gradient(135deg, rgba(0, 255, 255, 0.85), rgba(0, 204, 204, 0.7)), */
     background-size: cover;
     background-position: center;
 }
@@ -251,7 +268,6 @@
 .flip-card-front p {
     color: #e0e0e0;
     font-size: 0.95rem;
-    backdrop-filter: blur(5px);
 }
 
 @media (max-width: 768px) {
@@ -266,10 +282,14 @@
 
 /* Back card styling */
 .flip-card-back {
-    backdrop-filter: blur(10px);
-    background: linear-gradient(135deg, rgba(138, 43, 226, 0.8), rgba(255, 107, 157, 0.7));
     color: #8bed3a;
     font-weight: 600;
+}
+
+.flip-card-back i {
+    font-size: 2.5rem;
+    color: #FF6B9D;
+    margin-bottom: 1rem;
 }
 
 .flip-card-back p {
@@ -281,7 +301,6 @@
     background-clip: text;
     color: transparent;
     font-weight: 800;
-    /* Brighter, vibrant lime green */
 }
 
 .flip-card-back .btn-small {

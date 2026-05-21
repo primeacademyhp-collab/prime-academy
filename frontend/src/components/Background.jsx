@@ -49,10 +49,10 @@ const Background = () => {
                                 </div>
                                 <div className="flip-card-back">
                                     <i className="fas fa-bullhorn"></i>
-                                    <p>Beginner</p>
+                                    {/* <p>Beginner</p>
                                     <p>to Advanced levels</p>
-                                    <p>Personalized coaching sessions</p>
-                                    <a href="#" className="btn-small">Learn More</a>
+                                    <p>Personalized coaching sessions</p> */}
+                                    <a href="#" className="btn-small" style={{ marginTop: 'auto' }}>Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -66,9 +66,9 @@ const Background = () => {
                                 </div>
                                 <div className="flip-card-back">
                                     <i className="fas fa-medal"></i>
-                                    <p>Former national players</p>
-                                    <p>Certified coaching staff</p>
-                                    <Link to="/coaches" className="btn-small">Meet Coaches</Link>
+                                    {/* <p>Former national players</p>
+                                    <p>Certified coaching staff</p> */}
+                                    <Link to="/coaches" className="btn-small" style={{ marginTop: 'auto' }}>Meet Coaches</Link>
                                 </div>
                             </div>
                         </div>
@@ -82,9 +82,9 @@ const Background = () => {
                                 </div>
                                 <div className="flip-card-back">
                                     <i className="fas fa-chart-line"></i>
-                                    <p>Monthly championships</p>
-                                    <p>Ranking tournaments</p>
-                                    <a href="#" className="btn-small">View Schedule</a>
+                                    {/* <p>Monthly championships</p>
+                                    <p>Ranking tournaments</p> */}
+                                    <a href="#" className="btn-small" style={{ marginTop: 'auto' }}>View Schedule</a>
                                 </div>
                             </div>
                         </div>
@@ -98,9 +98,9 @@ const Background = () => {
                                 </div>
                                 <div className="flip-card-back">
                                     <i className="fas fa-building"></i>
-                                    <p>5 professional courts</p>
-                                    <p>Fitness center & recovery zone</p>
-                                    <Link to="/about" className="btn-small">Explore</Link>
+                                    {/* <p>5 professional courts</p>
+                                    <p>Fitness center & recovery zone</p> */}
+                                    <Link to="/about" className="btn-small" style={{ marginTop: 'auto' }}>Explore</Link>
                                 </div>
                             </div>
                         </div>
