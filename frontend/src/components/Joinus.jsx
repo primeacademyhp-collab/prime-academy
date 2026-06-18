@@ -31,7 +31,7 @@ const CdJoinus = () => {
                     {/* Feature Pills */}
                     <div className="flex flex-wrap justify-center gap-4 mb-12">
                         {[
-                            { icon: '🏆', text: 'Champions' },
+                            { icon: '🏆', text: 'Professional Training' },
                             { icon: '🎯', text: '5 Professional Courts' },
                             { icon: '💪', text: 'NIS Certified Coaching' },
                             { icon: '⭐', text: 'World class facilities' },
