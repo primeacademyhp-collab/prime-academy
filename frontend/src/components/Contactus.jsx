@@ -20,10 +20,10 @@ const Contactus = () => {
                         </div>
                         <p className="text-gray-300 text-sm md:text-base mb-3 uppercase tracking-widest font-semibold">Phone</p>
                         <a
-                            href="tel:9815078906"
+                            href="tel:8193775647"
                             className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-200 to-cyan-300 hover:scale-105 transition-transform duration-300 whitespace-nowrap"
                         >
-                            9815078906
+                            8193775647
                         </a>
                     </div>
 

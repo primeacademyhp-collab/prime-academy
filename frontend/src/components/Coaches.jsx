@@ -6,7 +6,7 @@ const Coaches = () => {
         {
             name: "Karan Chaudhary",
             image: "/karan.jpg",
-            title: "International Badminton Player",
+            title: "NIS certified & International Badminton Player",
             bio: "Expert badminton coach with years of experience, specializing in singles and doubles training.",
             instagram: "https://www.instagram.com/karan_choudhary9090/",
             achievements: [
@@ -57,6 +57,18 @@ const Coaches = () => {
                 "Experienced Badminton Coach",
                 "Skill development specialist",
                 "Focus on fundamentals and advanced techniques"
+            ]
+        },
+        {
+            name: "Rahul",
+            image: "/playerhero.png",
+            title: "Badminton Coach",
+            bio: "Skilled badminton coach dedicated to developing players through structured training and competitive match play.",
+            instagram: "#",
+            achievements: [
+                "Experienced Badminton Coach",
+                "Competitive match training specialist",
+                "Player development and technique refinement"
             ]
         }
     ];
