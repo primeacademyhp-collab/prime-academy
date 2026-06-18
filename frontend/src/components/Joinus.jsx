@@ -31,7 +31,7 @@ const CdJoinus = () => {
                     {/* Feature Pills */}
                     <div className="flex flex-wrap justify-center gap-4 mb-12">
                         {[
-                            { icon: '🏆', text: 'State-Level Champions' },
+                            { icon: '🏆', text: 'Champions' },
                             { icon: '🎯', text: '5 Professional Courts' },
                             { icon: '💪', text: 'NIS Certified Coaching' },
                             { icon: '⭐', text: 'International Players' },
@@ -80,7 +80,7 @@ const CdJoinus = () => {
                     {[
                         { icon: '🏸', title: 'Expert Coaching', desc: 'Train under 8x State Champion Karan Chaudhary and NIS certified conditioning coaches.' },
                         { icon: '🏟️', title: 'World-Class Facilities', desc: '5 professional badminton courts with modern infrastructure and training equipment.' },
-                        { icon: '📈', title: 'Proven Track Record', desc: 'Our players have won multiple state championships and represented India internationally.' },
+                        { icon: '📈', title: 'Proven Track Record', desc: 'Our coaches have won multiple state championships and represented India internationally.' },
                         { icon: '🎓', title: 'All Levels Welcome', desc: 'From beginners to advanced players — personalized training programs for every skill level.' },
                         { icon: '🏅', title: 'Tournament Ready', desc: 'Regular competitive tournaments and match practice to sharpen your game skills.' },
                         { icon: '💪', title: 'Strength & Conditioning', desc: 'Dedicated fitness and conditioning programs to build athletic performance.' },
