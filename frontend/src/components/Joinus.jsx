@@ -34,7 +34,7 @@ const CdJoinus = () => {
                             { icon: '🏆', text: 'Champions' },
                             { icon: '🎯', text: '5 Professional Courts' },
                             { icon: '💪', text: 'NIS Certified Coaching' },
-                            { icon: '⭐', text: 'International Players' },
+                            { icon: '⭐', text: 'World class facilities' },
                         ].map((item, i) => (
                             <div key={i} className="flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold text-white"
                                 style={{
